@@ -186,7 +186,7 @@ local function drawSegments(pnl,sections,w,h,thicker)
 	end
 
 	for i=0, sections-1 do
-		local col = (i==hover and thicker) and Color(231,28,92) or Color(0,0,0, 240) --  Color(0,200,0, 255) or Color(0,0,0, 240)
+		local col = (i==hover and thicker) and Color(231,28,92) or Color(0,100,0, 240) --  Color(0,200,0, 255) or Color(0,0,0, 240)
 		local spacer = sections > 1 and (thicker and 1 or 3) or 0
 		local starta = i*360/sections + spacer/2 + (thicker and .5 or 0)
 		local enda = starta+360/sections - spacer/2
