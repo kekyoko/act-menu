@@ -2,7 +2,7 @@
 
 ## Description
 
-**Act Menu** is a Lua-based action menu designed for use on Garry's Mod servers. It allows players to easily perform various actions, enhancing gameplay and interaction.
+**Act Menu** is a Lua-based action menu designed for use on Garry's Mod servers. It allows players to easily perform various actions, enhancing gameplay and interaction..
 
 ## Installation
 
@@ -10,4 +10,4 @@
    ```bash
    git clone https://github.com/kekyoko/act-menu.git
 
-# ONLY MOPPLE!
+# ONLY MOPPLE!!!
