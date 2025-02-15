@@ -10,4 +10,6 @@
    ```bash
    git clone https://github.com/kekyoko/act-menu.git
 
+1. Put in ..\addons:
+
 # ONLY MOPPLE!!!
