@@ -76,14 +76,12 @@ local function PrecacheArc(cx, cy, radius, thickness, startang, endang, roughnes
 	return quadarc
 end
 
-// Taked from helix gamemode
 local function DrawPrecachedArc(arc)
 	for _, v in ipairs(arc) do
 		surface.DrawPoly(v)
 	end
 end
 
-// Taked from helix gamemode
 local function DrawArc(cx, cy, radius, thickness, startang, endang, roughness, color)
 	surface.SetDrawColor(color)
 	DrawPrecachedArc(PrecacheArc(cx, cy, radius, thickness, startang, endang, roughness))
