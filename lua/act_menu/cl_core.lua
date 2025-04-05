@@ -11,7 +11,6 @@ local startTime = SysTime()
 local maxTime = 2.0
 local mat = Material("materials/mst_hud/seat.png")
 local isSelected = false
-local menuOpened = false
 
 // Taked from helix gamemode
 local function PrecacheArc(cx, cy, radius, thickness, startang, endang, roughness)
